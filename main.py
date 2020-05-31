@@ -1,9 +1,4 @@
-import random as _random
-import time as _time
 from typing import Tuple as _Tuple
-
-
-_random.seed(_time.time())
 
 
 def sum_between_min_max(array: _Tuple[float]) -> float:
