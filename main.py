@@ -1,7 +1,7 @@
 from typing import Tuple as _Tuple
 
 
-def sum_between_min_max(array: _Tuple[float]) -> float:
+def sum_between_min_max(array: _Tuple[float, ...]) -> float:
     """Counts sum of elements between min and max elements
 
     If there is empty, raises exception. If there are only two elements, return zero.
